@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<title>Interet</title>
+</head>
+
+
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="Accueil.html">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="Accueil.html">Accueil</a></li>
+        <li><a href="principe.html">A propos</a></li>
+        <li><a href="Passetemps.html">Projet</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="compte.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<h1>2ème étape</h1>
+
+<h2>Affine tes centres d'intérets</h2>
+
+<h3>Musiques</h3>
+
+	<form method="post" action="traitement.php">
+	
+<p>Choisis ici le style de musique qui te plait: </br>
+
+	<input type="radio" name="musiques" value="Folk" id="Folk" /> <label for="Folk">Folk</label><br />
+    <input type="radio" name="musiques" value="Classiques" id="Classiques" /> <label for="Classiques">Classiques</label><br />
+    <input type="radio" name="musiques" value="Rap US" id="Rap US" /> <label for="Rap US">Rap US</label><br />
+    <input type="radio" name="musiques" value="Rock" id="Rock" /> <label for="Rock">Rock</label><br />
+    <input type="radio" name="musiques" value="Reggae" id="Reggae" /> <label for="Reggae">Reggae</label><br />
+    <input type="submit" value="validez"/>
+</p>
+	</form>
+
+<h3>Jeux</h3>		
+	
+	<form method="post" action="traitement.php">
+
+<p>Tu souhaites jouer un peu ou même te lancer dans une aventure notre rubrique ici te propose ce dont tu as besoin: </br>
+	
+	<input type="radio" name="jeux" value="Mini-jeux" id="Mini-jeux" /> <label for="Mini-jeux">Mini-jeux</label><br />
+    <input type="radio" name="jeux" value="Jeux Online" id="Jeux Online" /> <label for="Jeux Online">Jeux en ligne</label><br />
+    <input type="radio" name="jeux" value="Stream" id="Stream" /> <label for="Stream">Stream</label><br />
+    <input type="submit" value="validez"/>
+</p>
+	</form>
+
+<h3>Actualité</h3>
+
+	<form method="post" action="traitement.php">
+	
+<p>Toute l'actualité et les news du moment sont ici: </br>
+	
+	<input type="radio" name="actualité" value="Presses" id="Presses" /> <label for="Presses">Presses</label><br />
+    <input type="radio" name="actualité" value="Radio" id="Radio" /> <label for="Radio">Radio</label><br />
+    <input type="radio" name="actualité" value="World" id="World" /> <label for="World">World</label><br />
+    <input type="submit" value="validez"/>
+	
+	
+</p>
+	</form>
+
+<h3>Sport</h3>
+
+	<form method="post" action="traitement.php">
+	
+<p>Suis toutes l'actu du sport tu peux aussi suivre les sites de paris sportif: </br>	
+	<input type="radio" name="sport" value="Foot" id="Foot" /> <label for="Foot">Foot</label><br />
+    <input type="radio" name="sport" value="Tennis" id="Tennis" /> <label for="Tennis">Tennis</label><br />
+    <input type="radio" name="sport" value="Rugby" id="Rugby" /> <label for="Rugby">Rugby</label><br />
+    <input type="radio" name="sport" value="Poker" id="Poker" /> <label for="Poker">Poker</label><br />
+    <input type="radio" name="sport" value="StreamSport" id="StreamSport" /> <label for="StreamSport">StreamSport/Paris Sportif</label><br />
+    <input type="submit" value="validez"/>
+</p>
+	
+	</form>
+
+<h3>Sorties</h3>
+	
+	<form method="post" action="traitement.php">
+
+	<p>Sortir pret de chez toi on te propose plusieurs activités en région Parisienne: </br>
+	<input type="radio" name="sorties" value="Sorties culturelles" id="Sortie culturelles" /> <label for="Sorties culturelles">Sorties Culturelles</label><br />
+    <input type="radio" name="sorties" value="Concert" id="Concert" /> <label for="Concert">Concert</label><br />
+	<input type="radio" name="sorties" value="Nuit" id="Nuit" /> <label for="Nuit">Nuit</label><br />
+	<input type="submit" value="validez"/>
+	</p>
+
+<ul class="pager">
+   
+   <li class="next"><a href="minutes.html">Suivant</a></li> 
+   <li class="previous"><a href="Passetemps.html">Précédent</a></li>
+
+</ul>
+</body>
+</html>

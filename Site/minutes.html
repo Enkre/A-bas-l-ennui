@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">	
+	<!-- titre provisoire -->
+	<title>Minuterie</title>
+</head>
+
+
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="Accueil.html">🌴</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="Accueil.html">Accueil</a></li>
+        <li><a href="principe.html">A propos</a></li>
+        <li><a href="minutes.html">Projet</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="compte.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+	<figure>
+	<!--	<img src="images/banniere2.jpg" alt="banniere du site"/> -->
+	</figure>
+  <p><h1>1ére étape</h1></p>
+	<p><h1>Minuterie</h1> </p>
+
+
+	<p class="introduction"> Choisis ici le nombre de minutes dont tu disposes : <br/></p>
+	<form action="Passetemps.php" method="post">
+		<p><input type="text" name="minutes"></p>
+		<p><input type="submit" value="Valider"></p>
+	</form>
+<ul class="pager">
+   
+   <li class="previous"><a href="Accueil.html">Précédent</a></li>
+
+</ul>
+</body>
+</html>
